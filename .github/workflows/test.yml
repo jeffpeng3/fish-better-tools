@@ -12,6 +12,6 @@ jobs:
       - name: Install fish
         run: |
           sudo apt-get update
-          sudo apt-get install -y fish
+          sudo apt-get install -y fish jq
       - name: Run tests
         run: fish tests/run.fish
